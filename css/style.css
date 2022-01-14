@@ -1,0 +1,494 @@
+/*----------------- google font link start -----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+/*------------------ google font link end ------------------*/
+/* -----------------all common css start------------------ */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.7;
+}
+/* -----------------all common css end-------------------- */
+
+/* -----------------navbar part start----------------------- */
+#navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 7;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 12px;
+    transition: 0.4s;
+}
+.navbar-nav .nav-link:hover{
+    color: #07cec3;
+}
+.sticky_header{
+    animation: sticky 0.7s;
+    position: fixed;
+    background: #413d4b;
+    width: 100%;
+}
+@keyframes sticky{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}
+/* -----------------navbar part end----------------------- */
+
+/* ---------------bannar part start----------------------- */
+#banner{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_overly{
+    background: rgba(11, 7, 51, 0.726);
+    padding-top: 230px;
+    padding-bottom: 200px;
+}
+.banner_text h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 32px;
+    position: relative;
+}
+.banner_text h2::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #07cec3;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 0px 193px;
+}
+.banner_text a{
+    display: inline-block;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid #07cec3;
+    margin-top: 50px;
+    color: #07cec3;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+}
+/* ---------------bannar part end----------------------- */
+
+/* -----------------srory pary start------------------- */
+#story{
+    padding: 60px 0;
+}
+.story_text h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #413d4b;
+}
+.story_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #413d4b;
+    padding: 30px 0;
+}
+.story_text a{
+    display: inline-block;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid #07cec3;
+    color: #07cec3;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+}
+/* -----------------srory pary end------------------- */
+
+/* ------------------video part start----------------- */
+#video{
+    background: url(../images/gallery.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video_overly{
+    background: rgba(9, 5, 47, 0.74);
+    padding: 200px 0;
+}
+.video_text h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 30px;
+}
+/* ------------------video part end----------------- */
+
+
+
+/* ---------------experise part start----------------- */
+#experise{
+    padding: 80px 0;
+}
+.common_head h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #413d4b;
+}
+.common_head p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #413d4b;
+    padding-top: 15px;
+    position: relative;
+}
+.common_head p::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #c6c4c9;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.item_text h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #413d4b;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.item_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #413d4b;
+    line-height: 22px;
+    padding: 0px 41px;
+}
+.top{
+    padding-top: 80px;
+}
+.top_one{
+    padding-top: 60px;
+}
+/* ---------------experise part end----------------- */
+
+/* --------------team part start-------------------- */
+#team{
+    background: url(../images/banner-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team_overly{
+    background: rgba(9, 5, 47, 0.74); 
+    padding: 65px 0;
+}
+.team_text{
+    padding: 20px 60px;
+}
+.team_item{
+    border: 1px solid #fff;
+}
+.team_text h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 12px;
+}
+.team_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+}
+.top-3{
+    padding-top: 66px;
+}
+.bottom_text{
+    padding-top: 60px;
+}
+.bottom_text h6{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+.bottom_text a{
+    display: inline-block;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #07cec3;
+    color: #07cec3;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 35px;
+}
+/* --------------team part end-------------------- */
+
+/* -------------our work part start--------------- */
+#our_work{
+    padding: 65px 0;
+}
+.work_btn{
+    margin-top: 90px;
+}
+.work_btn button{
+    border: 1px solid #dddddd;
+    margin-left: 10px;
+    padding: 10px;
+    background: transparent;
+}
+.work_img img {
+    width: 228px;
+}
+.top_4{
+    margin-top: 30px;
+}
+.work_btn a{
+    display: inline-block;
+    padding: 7px 12px;
+    background: transparent;
+    border: 1px solid #07cec3;
+    color: #07cec3;
+    font-family: 'Hammersmith One', sans-serif;
+}
+/* -------------our work part end--------------- */
+
+/* --------------testomonial part start-------------- */
+#testomonial{
+    background: url(../images/banner-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testomonial_overly{
+    background: rgba(9, 5, 47, 0.74); 
+    padding-top: 105px;
+    padding-bottom: 75px;
+}
+.testomonial_text p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding: 0 199px;
+    margin-top: 50px;
+}
+.testomonial_text h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 35px;
+}
+.testomonial_text h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+    padding-top: 10px;
+}
+.test_dots i{
+    padding-top: 40px;
+    color: #fff;
+    padding-left: 15px;
+}
+/* --------------testomonial part send-------------- */
+
+/* ----------------contact part start--------------- */
+#contact{
+    padding: 65px 0;
+}
+.contact_head h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #413d4b;
+    margin-bottom: 35px;
+}
+.form input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #c6c4c9;
+}
+.form textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #c6c4c9;
+    height: 200px;
+}
+.form button{
+    display: inline-block;
+    padding: 7px 15px;
+    background: transparent;
+    border: 1px solid #07cec3;
+    color: #07cec3;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.contact_img img{
+    margin-bottom: 55px;
+}
+/* ----------------contact part s\end--------------- */
+
+
+
+/* ----------------footer part start----------------- */
+#footer{
+    background: url(../images/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_overly{
+    background: rgba(9, 5, 47, 0.74); 
+    padding: 80px 0;
+}
+.footer_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    padding-right: 63px;
+    padding-top: 25px;
+}
+.footer_head h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: #fff;
+}
+.footer-our-address{
+    display: flex;
+}
+.footer-our-address{
+    padding-top: 30px;
+}
+.footer-our-address p{
+    margin-left: 15px;
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+}
+.footer-our-address--ico i{
+    color: #fff;
+}
+.footer_form input{
+    margin-top: 35px;
+    background: transparent;
+    padding: 7px 12px;
+    border: 1px solid #dddddd;
+}
+.footer_form input::placeholder{
+    color: #fff;
+    font-size: 14px;
+}
+.footer_form{
+    position: relative;
+}
+.form_btn {
+    padding: 7px 12px;
+    background: #a098b2;
+    width: 44px;
+    position: absolute;
+    right: 93px;
+    top: 36px;
+}
+.footer_three_icon {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 101px;
+}
+.footer_three_icon i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #ffffff;
+    line-height: 30px;
+    margin-right: 7px;
+}
+.copy_text ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.copy_text{
+    margin-top: 70px;
+}
+.copy_text ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+.copy_text_2 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 75px;
+}
+/* ----------------footer part end----------------- */
+
+/* ----------------uo to top part start--------------  */
+.up_to_top{
+    width: 60px;
+    height: 60px;
+    background: #07cec3;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    cursor: pointer;
+}
+.up_to_top i{
+    font-size: 30px;
+    color: #fff;
+    line-height: 60px;
+}
+/* ----------------uo to top part end--------------  */

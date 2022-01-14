@@ -1,0 +1,315 @@
+/* Extra large devices */
+@media (min-width: 1200px) {}
+
+/* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #413d4b;
+    }
+
+    .banner_overly {
+        padding-top: 136px;
+        padding-bottom: 136px;
+    }
+
+    .banner_text p {
+        font-size: 13px;
+        padding: 0px 0px;
+    }
+
+    .story_text {
+        text-align: center;
+        margin-top: 34px;
+    }
+
+    .video_overly {
+        padding: 98px 0;
+    }
+
+    .work_img img {
+        width: 250px;
+        margin-bottom: 14px;
+        margin-left: 9px;
+    }
+
+    .testomonial_text p {
+        padding: 0 0px;
+    }
+
+    .contact_head h3 {
+        margin-top: 37px;
+        text-align: center;
+    }
+
+    .contact_img {
+        padding-left: 109px;
+    }
+
+    .footer_head h4 {
+        margin-top: 20px;
+    }
+
+    .footer_form input {
+        width: 548px;
+    }
+
+    .copy_text {
+        padding-left: 160px;
+        margin-top: 20px;
+    }
+
+    .copy_text_2 p {
+        margin-top: 9px;
+        padding-left: 181px;
+    }
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #413d4b;
+    }
+
+    .banner_overly {
+        padding-top: 167px;
+        padding-bottom: 167px;
+    }
+
+    .banner_text p {
+        padding: 0px 0px;
+    }
+
+    .story_text {
+        text-align: center;
+        margin-top: 34px;
+    }
+
+    .story_text p {
+        padding: 30px 0px;
+    }
+
+    .video_overly {
+        padding: 89px 0;
+    }
+
+    .experise_item {
+        margin-bottom: 20px;
+    }
+
+    .experise_item {
+        margin-bottom: 33px;
+    }
+
+    .work_btn button {
+        margin-left: 1px;
+        margin-bottom: 8px;
+    }
+
+    .work_img img {
+        width: 294px;
+        margin-bottom: 14px;
+        margin-left: 9px;
+    }
+
+    .work_btn {
+        margin-top: 36px;
+    }
+
+    .testomonial_overly {
+        padding-top: 58px;
+        padding-bottom: 58px;
+    }
+
+    .testomonial_text p {
+        padding: 0 0px;
+    }
+
+    .contact_head h3 {
+        margin-top: 37px;
+        text-align: center;
+    }
+
+    .contact_img {
+        text-align: center;
+    }
+
+    .footer_head h4 {
+        margin-top: 26px;
+    }
+
+    .footer_form input {
+        width: 475px;
+    }
+
+    .form_btn {
+        right: 35px;
+    }
+
+    .copy_text {
+        margin-top: 27px;
+    }
+
+    .copy_text_2 p {
+        margin-top: 12px;
+        margin-left: 16px;
+    }
+
+    .footer_three_icon {
+        margin-right: 31px;
+    }
+
+    .copy_text {
+        text-align: center;
+    }
+
+    .copy_text_2 {
+        text-align: center;
+    }
+
+    .up_to_top {
+        width: 50px;
+        height: 50px;
+    }
+
+    .up_to_top i {
+        line-height: 50px;
+    }
+
+    .form button {
+        text-align: center;
+    }
+}
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+    .navbar-toggler i {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #413d4b;
+    }
+
+    .banner_overly {
+        padding-top: 129px;
+        padding-bottom: 74px;
+    }
+
+    .banner_text h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .banner_text p {
+        padding: 5px 9px;
+    }
+
+    .story_text {
+        text-align: center;
+    }
+
+    .story_text h3 {
+        padding-top: 34px;
+    }
+
+    .story_text p {
+        padding: 31px 0px;
+    }
+
+    .video_overly {
+        padding: 74px 0;
+    }
+
+    .common_head p {
+        line-height: 20px;
+    }
+
+    .experise_item {
+        margin-bottom: 34px;
+    }
+
+    .common_head h3 {
+        line-height: 25px;
+    }
+
+    .work_btn button {
+        margin-left: 0px;
+        margin-bottom: 8px;
+    }
+
+    .work_img {
+        text-align: center;
+    }
+
+    .work_img img {
+        width: 333px;
+        height: 172px;
+        margin-bottom: 26px;
+    }
+
+    .form button {
+        text-align: center;
+    }
+
+    .contact_head h3 {
+        margin-top: 37px;
+        text-align: center;
+    }
+
+    .testomonial_text p {
+        padding: 0 0px;
+    }
+
+    .contact_img {
+        text-align: center;
+    }
+
+    .footer_head h4 {
+        padding-top: 20px;
+    }
+
+    .form_btn {
+        right: 16px;
+    }
+
+    .footer_three_icon {
+        margin-right: 8px;
+    }
+
+    .copy_text {
+        margin-top: 22px;
+    }
+
+    .copy_text_2 p {
+        margin-top: 2px;
+        text-align: center;
+    }
+
+    .up_to_top {
+        width: 40px;
+        height: 40px;
+    }
+
+    .up_to_top i {
+        font-size: 21px;
+        line-height: 40px;
+    }
+}
